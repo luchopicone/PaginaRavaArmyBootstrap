@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.BodyUbicacion{
+    background-image: url(../img/BackgroundContactanos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.TituloUbicacion{
+    color: white;
+}
+
+.TextoAbajoMapa{
+    color: white;
+}
+
+/*------------------NAVBAR--------------------*/
+
+/*------------------FOOTER--------------------*/
+footer{
+    background-color: rgb(168, 101, 163);
+    color: white;
+    grid-area: footer;
+}
+.ContenedorCopyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Copyright{
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.FooterContainer{
+    margin-top: 35px;
+    width: 100%;
+    padding: 2rem 3rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.FooterContainerContenido{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0px 65px;
+}
+footer .LogoPagina{
+    margin: 1.2rem;
+    font-size:39px;
+}
+.FooterInfo, .MenuItemFooter{
+    margin: 0.2rem;
+    opacity: 0.7;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.MenuItemFooter:hover{
+    opacity: 1;
+}
+.TituloMenu{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+.ContenedorRedesSociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.SocialLink{
+    height: 100%;
+    width: 30px;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.SocialLink:hover{
+    opacity: 0.7;
+}
+.FooterMenu{
+    display: flex;
+}
+
+@media(max-width: 768px){
+    /*--------FOOTER-------*/
+    .ContenedorProductos{
+        width: 55%;
+    }
+    .FooterContainer{
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+    .FooterContainerContenido{
+        margin: 25px 0px
+    }
+    .FooterMenu{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 950px) {
+    .FooterContainerContenido{
+        margin: 15px;
+    }
+}
+
+@media (max-width: 952px){
+    .ContenedorContenedores{
+        flex-direction: column;
+    }
+    .ContenedorProductos{
+        width: 95%;
+    }
+}
+
+@media (max-width: 500px){
+    .ContenedorContenedores{
+        flex-direction: column;
+    }
+    .ContenedorProductos{
+        width: 100%;
+    }
+}
+/*---------PRODUCTOSINDEX-------------*/
+
+.ContenedorContenedores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContenedorProductos{
+    background-color: rgb(24, 23, 23);
+    box-shadow: 0 0 8px #111;
+    margin: 60px;
+    width: 25%;
+}
+.ContenedorProductos .Card{
+    height:200px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.ContenedorProductos img{
+    margin: auto;
+    display: block;
+}
+.Remera1 img{
+    height: 350px;
+    width: 95%;
+}
+.Short1 img{
+    height: 340px;
+    width: 95%;
+}
+.Remera2 img{
+    height: 350px;
+    width: 95%;
+}
+.ContenedorProductos .Remera1{
+    background-color: #a91fbbc2;
+}
+.ContenedorProductos .Short1{
+    background-color: #a91fbbc2;
+}
+.ContenedorProductos .Remera2{
+    background-color: #a91fbbc2;
+}
+.Informacion{
+    height: 160px;
+    width: 100%;
+}
+.Informacion h1{
+    font-family: sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 18px;
+}
+.Informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: rgb(216, 216, 216);
+}
+.precio{
+    height: 50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.BoxPrecio{
+    width: 80px;
+}
+.Precio1{
+    margin: 12px;
+    color: red;
+    font-size: 0.8em;
+}
+.Precio2{
+    font-size: 1.5em;
+    margin: 12px;
+    color: rgb(202, 202, 202);
+}
+
+@media (max-width: 1100px){
+    .ContenedorProductos{
+        width: 85%;
+    }
+}
+
+@media (max-width: 1200px){
+    .ContenedorProductos{
+        width: 65%;
+    }
+}
+
